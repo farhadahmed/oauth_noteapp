@@ -1,9 +1,11 @@
 var express = require('express');
 var app = express();
 
-app.use(express.static(__dirname + '/'));
+var listeningPort = process.env.port || 3000;
+app.set('port', (listeningPort));
 
-var port = process.env.port || 3000;
-app.listen(port, function() {
-  console.log('Server starting on port ' + port);
+app.use(express.static(__dirname + '/app'));
+
+app.listen(listeningPort, function() {
+  console.log('Server starting on port ' + listeningPort);
 });
