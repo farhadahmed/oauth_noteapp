@@ -6,6 +6,6 @@ app.set('port', (listeningPort));
 
 app.use(express.static(__dirname + '/app'));
 
-app.listen(app.get(listeningPort), function() {
-  console.log('Server starting on port ' + app.get(listeningPort));
+app.listen(listeningPort, function() {
+  console.log('Server starting on port ' + listeningPort);
 });
