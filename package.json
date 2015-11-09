@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/farhadahmed/oauth_noteapp/issues"
   },
-  "homepage": "https://github.com/farhadahmed/oauth_noteapp"
+  "homepage": "https://github.com/farhadahmed/oauth_noteapp",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }
