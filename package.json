@@ -1,0 +1,20 @@
+{
+  "name": "oauth_noteapp",
+  "version": "1.0.0",
+  "description": "This is a very basic note-storing app that uses OAuth with Express.js in Node.js.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/farhadahmed/oauth_noteapp.git"
+  },
+  "author": "Farhad Ahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farhadahmed/oauth_noteapp/issues"
+  },
+  "homepage": "https://github.com/farhadahmed/oauth_noteapp"
+}
